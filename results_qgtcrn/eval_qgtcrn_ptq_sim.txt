@@ -1,0 +1,7 @@
+Method     : PTQ (simulated int8), Conv1d+Conv2d+Linear quantized, no fine-tuning
+Note       : Q-GTCRN has zero GRUs, so this simulated quantization covers 100%
+             of the model -- unlike GTCRN's simulated PTQ, which also covered
+             100% but only because it was necessarily simulated (real static
+             PTQ crashed entirely on GTCRN's GRU/BatchNorm interaction).
+PESQ       : 2.2494
+STOI       : 0.9293

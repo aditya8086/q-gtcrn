@@ -1,0 +1,4 @@
+Source     : onnx (checkpoints_qgtcrn_qat\qgtcrn_static_int8.onnx)
+Test files : 824
+PESQ       : 2.5343
+STOI       : 0.9285

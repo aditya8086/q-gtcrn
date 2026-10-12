@@ -1,0 +1,4 @@
+Source     : torch (epoch 13)
+Test files : 824
+PESQ       : 2.8059
+STOI       : 0.9400
